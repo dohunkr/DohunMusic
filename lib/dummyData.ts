@@ -38,34 +38,6 @@ export const allSongs: Song[] = [
     imageSrc: "/img/baseball-5.jpg",
   },
   {
-    name: "신난 양말",
-    channelId: 2,
-    channel: "CattyBGM",
-    src: "/music/CattyBGM - 신난 양말.mp4",
-    imageSrc: "/img/CattyBGM - 신난 양말.jpeg",
-  },
-  {
-    name: "고양이 코",
-    channelId: 2,
-    channel: "CattyBGM",
-    src: "/music/CattyBGM - 고양이 코.mp4",
-    imageSrc: "/img/CattyBGM - 고양이 코.jpeg",
-  },
-  {
-    name: "휴화산",
-    channelId: 2,
-    channel: "CattyBGM",
-    src: "/music/CattyBGM - 휴화산.mp4",
-    imageSrc: "/img/CattyBGM - 휴화산.jpeg",
-  },
-  {
-    name: "butter",
-    channelId: 3,
-    channel: "ClearnEars",
-    src: "/music/ClearnEars - butter.mp4",
-    imageSrc: "/img/ClearnEars - butter.jpeg",
-  },
-  {
     name: "관음드래곤즈의 양진우 응원가",
     channelId: 1,
     channel: "도헌",
@@ -92,13 +64,6 @@ export const allSongs: Song[] = [
     channel: "도헌",
     src: "/music/daldam music - 차.mp4",
     imageSrc: "/img/baseball-9.jpg",
-  },
-  {
-    name: "목욕오리",
-    channelId: 4,
-    channel: "daldam music",
-    src: "/music/daldam music - 목욕오리.mp4",
-    imageSrc: "/img/daldam music - 목욕오리.jpeg",
   },
 ];
 
@@ -147,27 +112,6 @@ export const dummyChannelList = [
     name: "도헌",
     songList: getSongsBychannel("도헌"),
     playlistArray: getPlaylistByOwner("도헌"),
-  },
-  {
-    id: 2,
-    subscribers: 24500,
-    name: "CattyBGM",
-    songList: getSongsBychannel("CattyBGM"),
-    playlistArray: getPlaylistByOwner("CattyBGM"),
-  },
-  {
-    id: 3,
-    subscribers: 12000,
-    name: "ClearnEars",
-    songList: getSongsBychannel("ClearnEars"),
-    playlistArray: getPlaylistByOwner("ClearnEars"),
-  },
-  {
-    id: 4,
-    subscribers: 9800,
-    name: "daldam music",
-    songList: getSongsBychannel("daldam music"),
-    playlistArray: getPlaylistByOwner("daldam music"),
   },
 ];
 
