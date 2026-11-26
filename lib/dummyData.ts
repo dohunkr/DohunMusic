@@ -65,6 +65,13 @@ export const allSongs: Song[] = [
     src: "/music/daldam music - 차.mp4",
     imageSrc: "/img/baseball-9.jpg",
   },
+  {
+    name: "2026축제",
+    channelId: 1,
+    channel: "도헌",
+    src: "/music/2026축제.mp3",
+    imageSrc: "/img/ClearnEars - butter.jpeg",
+  },
 ];
 
 export const getSongsBychannel = (channel: string) => {
@@ -77,14 +84,14 @@ export const dummyPlaylistArray: Playlist[] = [
     owner: "도헌",
     playlistName: "관음드래곤즈 야구응원가 모음",
     coverImageSrc: "/img/baseball-10.jpg",
-    songList: getSongsBychannel("도헌"),
+    songList: allSongs.filter((song) => song.name.startsWith("관음드래곤즈")),
   },
   {
     id: 2,
     owner: "도헌",
     playlistName: "2026축제",
     coverImageSrc: "/img/ClearnEars - butter.jpeg",
-    songList: [],
+    songList: allSongs.filter((song) => song.name === "2026축제"),
   },
 ];
 
