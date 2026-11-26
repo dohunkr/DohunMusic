@@ -70,7 +70,7 @@ export const allSongs: Song[] = [
     channelId: 1,
     channel: "도헌",
     src: "/music/2026축제.mp3",
-    imageSrc: "/img/ClearnEars - butter.jpeg",
+    imageSrc: "/img/festival-2026.jpg",
   },
 ];
 
@@ -90,7 +90,7 @@ export const dummyPlaylistArray: Playlist[] = [
     id: 2,
     owner: "도헌",
     playlistName: "2026축제",
-    coverImageSrc: "/img/ClearnEars - butter.jpeg",
+    coverImageSrc: "/img/festival-2026.jpg",
     songList: allSongs.filter((song) => song.name === "2026축제"),
   },
 ];
